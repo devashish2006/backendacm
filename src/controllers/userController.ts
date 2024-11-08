@@ -48,6 +48,7 @@ export const loginUser = async (
     next(error);
   }
 };
+//shiwang
 
 export const registerUser = async (
   req: Request<{}, {}, { username: string; email: string; password: string }>,
