@@ -1,0 +1,25 @@
+
+# dependencies
+/node_modules
+
+
+
+
+/dist/
+
+# production
+/build
+
+
+
+# debug
+npm-debug.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+.env
+# typescript
+*.tsbuildinfo
